@@ -17,13 +17,9 @@ img {
     border-radius: 50%;
     border: 2px solid #2E4053;
     margin: 20px auto;
-   
-
 }
-img:hover{
 
-
-
+img:hover {
     border-radius: 200px;
 }
 
@@ -63,7 +59,7 @@ div {
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
     text-transform: capitalize;
     background-color: rgb(228, 214, 197);
-    transition: transform 0.2s;
+    transition: transform 10s;
 }
 
 div:hover {
@@ -88,4 +84,65 @@ div:hover {
 .btn:hover {
     background-color: #45a049; 
     transform: scale(1.1);
+}
+
+.navbar {
+    background-color: #34495E;
+    height: 70px;
+    width: 70%;
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 8px 15px;
+    margin: 0 10px;
+    list-style: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li:hover {
+    background-color: #4CAF50;
+    border-radius: 4px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #333;
+}
+
+button {
+    font-size: 16px;
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
 }
